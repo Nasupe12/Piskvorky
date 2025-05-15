@@ -1,0 +1,28 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Piškvorky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Piškvorky</h1>
+  <div id="login">
+    <input id="name" placeholder="Zadej jméno">
+    <button id="join">Připojit</button>
+  </div>
+  <div id="game" style="display:none;">
+    <p id="status"></p>
+    <div id="game-board" class="board"></div>
+    <button id="restart">Restartovat</button>
+    <h2>Chat</h2>
+    <div id="chat"></div>
+    <input id="chatInput" placeholder="Napiš zprávu">
+  </div>
+  <h2>Tabulka vítězů</h2>
+  <ul id="scores"></ul>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
