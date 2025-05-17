@@ -1,16 +1,16 @@
 {
-  "name": "multiplayer-piskvorky",
+  "name": "piskvorky",
   "version": "1.0.0",
+  "description": "Multiplayerové piškvorky s Node.js a Socket.IO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nasupe12",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "socket.io": "^4.8.1"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
   }
 }
